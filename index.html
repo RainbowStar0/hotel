@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Prueba</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="Estilos/index.css">
+        <link rel="stylesheet" href="Estilos/header.css">
+        <link rel="stylesheet" href="Estilos/footer.css">
+        <link rel="stylesheet" href="Estilos/form.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div class="header"></div>
+        </header>
+
+        <div >
+            <form action="/buscar" method="post" class="buscar">
+                <input type="text" class="barra" placeholder="Buscar...">
+                <input type="submit" class="boton" value="Buscar">
+            </form>
+        </div>
+
+        <div class="contenedor">
+            <section class="texto">
+                <h2 class="tit_1">Misión</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam nobis doloremque itaque eaque, iusto provident placeat sint totam natus, temporibus magni optio odit, omnis quibusdam asperiores? Nulla facere explicabo maiores?</p>
+            </section>
+
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Ivu8GEGGPZY?si=-27BKj8hCYIULoL_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+            <div class="texto_2">
+                <h2 class="tit_2">Visión</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, voluptatibus? Cumque repellendus, quod, error quos assumenda, repudiandae labore ea veniam tempore deleniti non quia perspiciatis. Quisquam, delectus.</p>
+            </div>
+        </div>
+
+        <div>
+            <div class="parrafo">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quibusdam nulla laudantium aspernatur assumenda beatae voluptates magni, explicabo quia facere quaerat eligendi aut recusandae quod rem odio possimus culpa. Nostrum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nobis sequi dolor repudiandae doloremque accusamus totam sint ratione quos amet praesentium molestias, vitae nisi facilis qui ipsum, porro numquam itaque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, sequi voluptatum. Iusto eligendi blanditiis ea. Laudantium numquam exercitationem laborum distinctio ea placeat ab. Veritatis pariatur culpa mollitia modi inventore commodi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt accusantium debitis maiores. Eum et ad natus facilis maiores blanditiis ut aperiam, tenetur autem similique. Atque velit ab iste quisquam sunt ñorem
+                </p>
+            </div>
+        </div>
+
+    <div class="imagenesh">
+        <div class="imagen">
+            <img src="https://hotelesempresarialescolsubsidio.com/wp-content/uploads/2024/07/Lanceros_500x300px_2_8_11zon.webp" alt="Imagen de hotel">
+        </div>
+        <div class="imagen">
+            <img src="https://hotelesempresarialescolsubsidio.com/wp-content/uploads/2024/07/Colonial_500x300px_1_4_11zon.webp" alt="Imagen de hotel">
+        </div>
+        <div class="imagen">
+            <img src="https://hotelesempresarialescolsubsidio.com/wp-content/uploads/2024/08/Bosques_500x300px_2_2_11zon.webp" alt="Imagen de hotel">
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer"></div>
+    </footer>
+    </body>
+
+    <script>
+        $(document).ready(function(){
+            $('.footer').load('Footer/footer.html')
+        })
+    </script>
+
+    <script>
+        $(document).ready(function(){
+            $('.header').load('Header/header.html')
+        })
+    </script>
+</html>

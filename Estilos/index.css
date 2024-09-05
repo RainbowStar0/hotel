@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.buscar{
+    padding: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.boton, .barra{
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 10%;
+    box-sizing: border-box;
+}
+
+
+.texto, .texto_2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    padding: 70px;
+    margin: auto;
+    flex-direction: column;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(242, 248, 255);
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.parrafo {
+    padding: 50px;
+    margin: 20px;
+    background-color: rgb(242, 248, 255);
+}
+
+@media (max-width: 1170px) {
+    .buscar {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .cabecera{
+        width: auto ;
+        margin: auto;
+    }
+
+    .barra, .boton {
+        width: auto;
+        margin-bottom: auto;
+        display: flex;
+    }
+
+    .video{
+        width: 70%;
+    }
+
+    .contenedor {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .texto, .video, .texto_2 {
+        width: 70%;
+    }
+    .imagenesh {
+        display: flex;
+        flex-direction: column; /* Organiza las imágenes verticalmente */
+        align-items: center; /* Centra las imágenes horizontalmente en el contenedor */
+        gap: 10px; /* Espacio entre las imágenes */
+        padding: 20px; /* Espacio alrededor del contenedor de imágenes */
+        background-color: #f0f0f0; /* Color de fondo opcional */
+    }
+    
+    .imagen {
+        width: 100%; /* Asegura que las imágenes se ajusten al contenedor */
+        max-width: 500px; /* Opcional: Limita el ancho máximo de cada imagen */
+        box-sizing: border-box; /* Incluye el padding y el border en el tamaño total del contenedor */
+    }
+    
+    .imagen img {
+        display: block; /* Elimina el espacio debajo de las imágenes */
+        width: 100%; /* Hace que las imágenes se ajusten al contenedor de su respectiva celda */
+        height: auto; /* Mantiene la proporción original de la imagen */
+        border-radius: 8px; /* Opcional: añade bordes redondeados a las imágenes */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Opcional: añade una sombra sutil a las imágenes */
+    }   
+}
+.imagenesh {
+    display: flex;
+    justify-content: center; /* Centra las imágenes horizontalmente en el contenedor */
+    gap: 10px; /* Espacio entre las imágenes */
+    flex-wrap: wrap; /* Permite que las imágenes se envuelvan en una nueva línea si el contenedor es demasiado pequeño */
+    padding: 20px; /* Espacio alrededor del contenedor de imágenes */
+}
+
+.imagen {
+    flex: 1; /* Permite que las imágenes se ajusten en el contenedor de manera flexible */
+    max-width: 100%; /* Asegura que las imágenes no se extiendan más allá del contenedor */
+    box-sizing: border-box; /* Incluye el padding y el border en el tamaño total del contenedor */
+    padding: auto;
+}
+
+.imagen img {
+    display: block; /* Elimina el espacio debajo de las imágenes */
+    width: 100%; /* Hace que las imágenes se ajusten al contenedor de su respectiva celda */
+    height: auto; /* Mantiene la proporción original de la imagen */
+    border-radius: 8px; /* Opcional: añade bordes redondeados a las imágenes */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Opcional: añade una sombra sutil a las imágenes */
+}
